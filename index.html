@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Resume Keyword Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>AI Resume Keyword Checker</h1>
+
+  <label>Select Job Role:</label>
+  <select id="role">
+    <option value="fullstack">Full Stack Developer</option>
+    <option value="datascience">Data Scientist</option>
+    <option value="ml">Machine Learning Engineer</option>
+  </select>
+
+  <br><br>
+
+  <label>Upload Resume (PDF):</label>
+  <input type="file" id="resume">
+
+  <br><br>
+
+  <button onclick="checkResume()">Check Resume</button>
+
+  <h3 id="result"></h3>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
