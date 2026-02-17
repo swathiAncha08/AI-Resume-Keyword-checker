@@ -29,4 +29,6 @@ Frontend: HTML, CSS, JavaScript
 
 ## File Upload: Multer
 
-## PDF Text Extraction: pdf-parse
+## Output Screen
+![outputimg](https://github.com/user-attachments/assets/fdfeebaf-1745-4ffe-a178-435a7f2ba2ce)
+
